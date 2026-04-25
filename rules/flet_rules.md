@@ -64,3 +64,6 @@ if __name__ == "__main__":
 
 - **Async:** UI event handlers and service calls MUST be `async def`.
 - **State Management:** Use `ft.Ref[T]()` to reference controls within class-based views to maintain clean separation of concerns.
+
+### 6. API and argument changed
+- **Flet 0.84 Tab API**: Use `label` (not `text`) for `ft.Tab()`. The old `text` parameter was removed in the 0.8x series. 
